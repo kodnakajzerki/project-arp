@@ -3,12 +3,155 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rockin’IT</title>
+    <title>Rockin'IT - Strona Główna</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <p>Rockin’IT</p>
+    <header class="header">
+        <div class="logo">
+            <img src="logo.png" alt="Rockin'IT Logo">
+        </div>
     </header>
+
+    <section class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Let's rock</h1>
+            <p>W Rockin'iT masz możliwość praktycznej nauki w oparciu o branżowe realia. Zapisz się już dziś!</p>
+        </div>
+    </section>
+
+    <section class="target-audience-section">
+        <div class="container">
+            <h2>Dla kogo szkolenia IT?</h2>
+            <div class="target-audience">
+                <div class="audience-item">
+                    <svg class="svg-icon" viewBox="0 0 20 20" width="80" height="80">
+                        <path fill="#a6a6a6" d="M17.125,1.375H2.875c-0.828,0-1.5,0.672-1.5,1.5v11.25c0,0.828,0.672,1.5,1.5,1.5H7.75v2.25H6.625c-0.207,0-0.375,0.168-0.375,0.375s0.168,0.375,0.375,0.375h6.75c0.207,0,0.375-0.168,0.375-0.375s-0.168-0.375-0.375-0.375H12.25v-2.25h4.875c0.828,0,1.5-0.672,1.5-1.5V2.875C18.625,2.047,17.953,1.375,17.125,1.375z M11.5,17.875h-3v-2.25h3V17.875zM17.875,14.125c0,0.414-0.336,0.75-0.75,0.75H2.875c-0.414,0-0.75-0.336-0.75-0.75v-1.5h15.75V14.125z M17.875,11.875H2.125v-9c0-0.414,0.336-0.75,0.75-0.75h14.25c0.414,0,0.75,0.336,0.75,0.75V11.875z M10,14.125c0.207,0,0.375-0.168,0.375-0.375S10.207,13.375,10,13.375s-0.375,0.168-0.375,0.375S9.793,14.125,10,14.125z"></path>
+                    </svg>
+                    <h3>Programiści</h3>
+                    <p>Opanuj najnowsze technologie, języki programowania i narzędzia dla programistów, rozwijając swoje umiejętności.</p>
+                </div>
+                <div class="audience-item">
+                    <svg class="svg-icon" viewBox="0 0 20 20" width="80" height="80">
+                        <path fill="#a6a6a6" d="M16.852,5.051h-4.018c0.131-0.225,0.211-0.482,0.211-0.761V3.528c0-0.841-0.682-1.522-1.521-1.522H8.478c-0.841,0-1.523,0.682-1.523,1.522V4.29c0,0.279,0.081,0.537,0.211,0.761H3.148c-0.841,0-1.522,0.682-1.522,1.523v9.897c0,0.842,0.682,1.523,1.522,1.523h13.704c0.842,0,1.523-0.682,1.523-1.523V6.574C18.375,5.733,17.693,5.051,16.852,5.051zM7.716,3.528c0-0.42,0.341-0.761,0.762-0.761h3.045c0.42,0,0.762,0.341,0.762,0.761V4.29c0,0.421-0.342,0.761-0.762,0.761H8.478c-0.42,0-0.762-0.34-0.762-0.761V3.528z M17.615,16.471c0,0.422-0.342,0.762-0.764,0.762H3.148c-0.42,0-0.761-0.34-0.761-0.762V9.62h15.228V16.471z M17.615,8.858H2.387V6.574c0-0.421,0.341-0.761,0.761-0.761h13.704c0.422,0,0.764,0.34,0.764,0.761V8.858z"></path>
+                    </svg>                    
+                    <h3>Menedżerowie IT</h3>
+                    <p>Zwiększ swoje umiejętności w zakresie zarządzania projektami IT, opracowywania strategii IT oraz skutecznego kierowania zespołem technicznym.</p>
+                </div>
+                <div class="audience-item"> 
+                    <svg class="svg-icon" viewBox="0 0 20 20" width="80" height="80">
+                        <path fill="#a6a6a6" d="M17.064,4.656l-2.05-2.035C14.936,2.544,14.831,2.5,14.721,2.5H3.854c-0.229,0-0.417,0.188-0.417,0.417v14.167c0,0.229,0.188,0.417,0.417,0.417h12.917c0.229,0,0.416-0.188,0.416-0.417V4.952C17.188,4.84,17.144,4.733,17.064,4.656M6.354,3.333h7.917V10H6.354V3.333z M16.354,16.667H4.271V3.333h1.25v7.083c0,0.229,0.188,0.417,0.417,0.417h8.75c0.229,0,0.416-0.188,0.416-0.417V3.886l1.25,1.239V16.667z M13.402,4.688v3.958c0,0.229-0.186,0.417-0.417,0.417c-0.229,0-0.417-0.188-0.417-0.417V4.688c0-0.229,0.188-0.417,0.417-0.417C13.217,4.271,13.402,4.458,13.402,4.688"></path>
+                    </svg>
+                    <h3>Analitycy danych</h3>
+                    <p>Poszerz swoje umiejętności w zakresie analizy danych, prezentacji wyników oraz używania narzędzi do przetwarzania obszernych zestawów danych.</p>
+                </div>
+                <div class="audience-item">
+                    <svg class="svg-icon" viewBox="0 0 20 20" width="80" height="80">
+                        <path fill="#a6a6a6" d="M17.218,2.268L2.477,8.388C2.13,8.535,2.164,9.05,2.542,9.134L9.33,10.67l1.535,6.787c0.083,0.377,0.602,0.415,0.745,0.065l6.123-14.74C17.866,2.46,17.539,2.134,17.218,2.268 M3.92,8.641l11.772-4.89L9.535,9.909L3.92,8.641z M11.358,16.078l-1.268-5.613l6.157-6.157L11.358,16.078z"></path>
+                    </svg>
+                    <h3>Osoby zmieniające pracę</h3>
+                    <p>Idealne dla tych, którzy chcą wejść do branży IT, ale nie mają jeszcze żadnych umiejętności technicznych. W naszej ofercie są szkolenia dla początkujących, które pomogą Ci rozpocząć karierę w IT.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features-section">
+        <div class="container">
+            <h2>Czego uczymy?</h2>
+            <div class="features">
+                <div class="feature-item">
+                    <svg class="svg-icon" viewBox="0 0 20 20" width="80" height="80">
+                        <path fill="#fe5407" d="M17.237,3.056H2.93c-0.694,0-1.263,0.568-1.263,1.263v8.837c0,0.694,0.568,1.263,1.263,1.263h4.629v0.879c-0.015,0.086-0.183,0.306-0.273,0.423c-0.223,0.293-0.455,0.592-0.293,0.92c0.07,0.139,0.226,0.303,0.577,0.303h4.819c0.208,0,0.696,0,0.862-0.379c0.162-0.37-0.124-0.682-0.374-0.955c-0.089-0.097-0.231-0.252-0.268-0.328v-0.862h4.629c0.694,0,1.263-0.568,1.263-1.263V4.319C18.5,3.625,17.932,3.056,17.237,3.056 M8.053,16.102C8.232,15.862,8.4,15.597,8.4,15.309v-0.89h3.366v0.89c0,0.303,0.211,0.562,0.419,0.793H8.053z M17.658,13.156c0,0.228-0.193,0.421-0.421,0.421H2.93c-0.228,0-0.421-0.193-0.421-0.421v-1.263h15.149V13.156z M17.658,11.052H2.509V4.319c0-0.228,0.193-0.421,0.421-0.421h14.308c0.228,0,0.421,0.193,0.421,0.421V11.052z"></path>
+                    </svg>
+                    <h3>Junior Front-end Developer</h3>
+                    <p>Opanuj podstawy HTML, CSS i JavaScript, a także nowoczesne techniki tworzenia stron internetowych.</p>
+                </div>
+                <div class="feature-item">
+                <svg class="svg-icon" viewBox="0 0 20 20" width="80" height="80">
+                    <path fill="#fe5407" d="M15.573,11.624c0.568-0.478,0.947-1.219,0.947-2.019c0-1.37-1.108-2.569-2.371-2.569s-2.371,1.2-2.371,2.569c0,0.8,0.379,1.542,0.946,2.019c-0.253,0.089-0.496,0.2-0.728,0.332c-0.743-0.898-1.745-1.573-2.891-1.911c0.877-0.61,1.486-1.666,1.486-2.812c0-1.79-1.479-3.359-3.162-3.359S4.269,5.443,4.269,7.233c0,1.146,0.608,2.202,1.486,2.812c-2.454,0.725-4.252,2.998-4.252,5.685c0,0.218,0.178,0.396,0.395,0.396h16.203c0.218,0,0.396-0.178,0.396-0.396C18.497,13.831,17.273,12.216,15.573,11.624 M12.568,9.605c0-0.822,0.689-1.779,1.581-1.779s1.58,0.957,1.58,1.779s-0.688,1.779-1.58,1.779S12.568,10.427,12.568,9.605 M5.06,7.233c0-1.213,1.014-2.569,2.371-2.569c1.358,0,2.371,1.355,2.371,2.569S8.789,9.802,7.431,9.802C6.073,9.802,5.06,8.447,5.06,7.233 M2.309,15.335c0.202-2.649,2.423-4.742,5.122-4.742s4.921,2.093,5.122,4.742H2.309z M13.346,15.335c-0.067-0.997-0.382-1.928-0.882-2.732c0.502-0.271,1.075-0.429,1.686-0.429c1.828,0,3.338,1.385,3.535,3.161H13.346z"></path>
+                </svg>
+                    <h3>Leadership in Software Development</h3>
+                    <p>Rozwiń umiejętności zarządzania zespołem, strategii rozwoju oprogramowania oraz efektywnego przywództwa w projektach IT.</p>
+                </div>
+                <div class="feature-item">
+                <svg class="svg-icon" viewBox="0 0 20 20" width="80" height="80">
+                    <path fill="#fe5407" d="M6.634,13.591H2.146c-0.247,0-0.449,0.201-0.449,0.448v2.692c0,0.247,0.202,0.449,0.449,0.449h4.488c0.247,0,0.449-0.202,0.449-0.449v-2.692C7.083,13.792,6.881,13.591,6.634,13.591 M6.185,16.283h-3.59v-1.795h3.59V16.283zM6.634,8.205H2.146c-0.247,0-0.449,0.202-0.449,0.449v2.692c0,0.247,0.202,0.449,0.449,0.449h4.488c0.247,0,0.449-0.202,0.449-0.449V8.653C7.083,8.407,6.881,8.205,6.634,8.205 M6.185,10.897h-3.59V9.103h3.59V10.897z M6.634,2.819H2.146c-0.247,0-0.449,0.202-0.449,0.449V5.96c0,0.247,0.202,0.449,0.449,0.449h4.488c0.247,0,0.449-0.202,0.449-0.449V3.268C7.083,3.021,6.881,2.819,6.634,2.819 M6.185,5.512h-3.59V3.717h3.59V5.512z M15.933,5.683c-0.175-0.168-0.361-0.33-0.555-0.479l1.677-1.613c0.297-0.281,0.088-0.772-0.31-0.772H9.336c-0.249,0-0.448,0.202-0.448,0.449v7.107c0,0.395,0.471,0.598,0.758,0.326l1.797-1.728c0.054,0.045,0.107,0.094,0.161,0.146c0.802,0.767,1.243,1.786,1.243,2.867c0,1.071-0.435,2.078-1.227,2.837c-0.7,0.671-1.354,1.086-2.345,1.169c-0.482,0.041-0.577,0.733-0.092,0.875c0.687,0.209,1.12,0.314,1.839,0.314c0.932,0,1.838-0.173,2.673-0.505c0.835-0.33,1.603-0.819,2.262-1.449c1.322-1.266,2.346-2.953,2.346-4.751C18.303,8.665,17.272,6.964,15.933,5.683 M15.336,14.578c-1.124,1.077-2.619,1.681-4.217,1.705c0.408-0.221,0.788-0.491,1.122-0.812c0.97-0.929,1.504-2.168,1.504-3.485c0-1.328-0.539-2.578-1.521-3.516c-0.178-0.17-0.357-0.321-0.548-0.456c-0.125-0.089-0.379-0.146-0.569,0.041L9.769,9.327v-5.61h5.861l-1.264,1.216c-0.099,0.094-0.148,0.229-0.137,0.366c0.014,0.134,0.088,0.258,0.202,0.332c0.313,0.204,0.61,0.44,0.882,0.7c1.158,1.111,2.092,2.581,2.092,4.145C17.405,12.026,16.48,13.482,15.336,14.578"></path>
+                </svg>
+                    <h3>Presales and Account Management</h3>
+                    <p>Ucz się skutecznych technik sprzedaży, zarządzania relacjami z klientami oraz efektywnego przedstawiania ofert.</p>
+                </div>
+                <div class="feature-item">
+                    <svg class="svg-icon" viewBox="0 0 20 20" width="80" height="80">
+                        <path fill="#fe5407" d="M11.709,7.438H8.292c-0.234,0-0.427,0.192-0.427,0.427v8.542c0,0.234,0.192,0.427,0.427,0.427h3.417c0.233,0,0.426-0.192,0.426-0.427V7.865C12.135,7.63,11.942,7.438,11.709,7.438 M11.282,15.979H8.719V8.292h2.563V15.979zM6.156,11.709H2.74c-0.235,0-0.427,0.191-0.427,0.426v4.271c0,0.234,0.192,0.427,0.427,0.427h3.417c0.235,0,0.427-0.192,0.427-0.427v-4.271C6.583,11.9,6.391,11.709,6.156,11.709 M5.729,15.979H3.167v-3.416h2.562V15.979zM17.261,3.167h-3.417c-0.235,0-0.427,0.192-0.427,0.427v12.812c0,0.234,0.191,0.427,0.427,0.427h3.417c0.234,0,0.427-0.192,0.427-0.427V3.594C17.688,3.359,17.495,3.167,17.261,3.167 M16.833,15.979h-2.562V4.021h2.562V15.979z"></path>
+                    </svg>
+                    <h3>Analityka internetowa</h3>
+                    <p>Opanuj techniki analizy danych internetowych, monitorowania wydajności stron i optymalizacji działań marketingowych.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="why-rockinit-section">
+        <div class="container">
+            <h2>Jak uczymy, czyli dlaczego Rockin’iT?</h2>
+            <div class="content">
+                <div class="feature">
+                    <h3>Framework szkoleniowy R’iT</h3>
+                    <p>W ramach naszych szkoleń IT każdy uczestnik tworzy dwa backlogi: jeden z poznanymi narzędziami, a drugi z zagadnieniami do dalszego rozwinięcia oraz związanymi z nimi problemami. Ta „skrzynka narzędziowa”, budowana w czasie rzeczywistym, pozwala na wspólne zarządzanie backlogiem i pracę nad nim. Po szkoleniu uczestnik ma rozwiązany konkretny problem, pełny obraz zagadnienia oraz precyzyjny, rozłożony w czasie plan wykorzystania narzędzi, co umożliwia ich efektywne wdrożenie w pracy.</p>
+                </div>
+                <div class="feature">
+                    <h3>Praktyka i doświadczenie</h3>
+                    <p>Tematy kursów Rockin’iT są oparte na praktycznym doświadczeniu naszych Trenerów, którzy od lat działają w branży IT. Każdy z naszych ekspertów ma głęboką wiedzę na temat omawianych zagadnień i dzieli się sprawdzonymi praktykami z własnej kariery zawodowej. W trakcie szkoleń będziesz pracować na rzeczywistych przykładach biznesowych, co pozwoli Ci poznać cenne porady i techniki, które pomogą Ci osiągnąć sukces.</p>
+                </div>
+                <div class="feature">
+                    <h3>Realne środowisko pracy</h3>
+                    <p>Nie zajmujemy się ogólnikami ani teoriami biznesowymi. Nasza wiedza i umiejętności są zawsze powiązane z codziennymi wyzwaniami zawodowymi – zarówno dla Trenerów, jak i kursantów. Przygotujemy Cię do pracy nad rzeczywistymi projektami w realnych warunkach branży IT, eliminując potrzebę uczenia się w oderwanych, idealistycznych warunkach.</p>
+                </div>
+                <div class="feature">
+                    <h3>Same konkrety</h3>
+                    <p>Po ukończeniu szkolenia Rockin’iT będziesz mieć w ręku konkretne narzędzia gotowe do natychmiastowego zastosowania w swoich projektach. Nauka w naszych kursach jest dynamiczna i angażująca. Oferujemy solidną pracę zarówno z naszej strony, jak i z Twojej. Ten wysiłek na pewno się opłaci – zdobyte umiejętności pozwolą Ci pracować skuteczniej i efektywniej.</p>
+                </div>
+            </div>
+            <div class="testimonials">
+                <div class="testimonial">
+                    <blockquote>
+                        <p>"Kursy Rockin’iT dały mi nie tylko wiedzę, ale i pewność siebie. Świetna jakość materiałów i indywidualne podejście!"</p>
+                        <footer>- Anna Kowalska, Front-end Developer</footer>
+                    </blockquote>
+                </div>
+                <div class="testimonial">
+                    <blockquote>
+                        <p>"Profesjonalizm i wsparcie na każdym etapie nauki. Polecam każdemu, kto chce rozwijać swoje umiejętności IT."</p>
+                        <footer>- Michał Nowak, Project Manager</footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-us-section">
+        <div class="container">
+            <h2>O nas</h2>
+            <div class="company-info">
+                <p>Rockin’iT to nie tylko firma szkoleniowa. To prawdziwy hub wiedzy i umiejętności dla specjalistów z sektora IT. Na potrzeby naszych kursantów pracują specjaliści R’iT, trenerzy, eksperci merytoryczni, dydaktycy, firmy partnerskie i prężna społeczność, której częścią staje się każdy z nas.</p>
+            </div>
+            <div class="team">
+                <h3>Nasz zespół</h3>
+                <div class="team-member">
+                    <img src="https://img.redro.pl/obrazy/uzytkownik-ikona-wektor-mezczyzna-osoba-symbol-profil-avatar-zaloguj-plaski-kolor-glif-ilustracja-piktogram-700-116257217.jpg" alt="Członek zespołu 1">
+                    <h4>Jan Kowalski</h4>
+                    <p>Senior Developer i Mentor. Ekspert w zakresie front-endu i UX.</p>
+                </div>
+                <div class="team-member">
+                    <img src="https://img.freepik.com/darmowe-wektory/kobieta-awatar_23-2147501833.jpg" alt="Członek zespołu 2">
+                    <h4>Anna Nowak</h4>
+                    <p>Specjalista ds. analityki internetowej i optymalizacji procesów.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </body>
 </html>
